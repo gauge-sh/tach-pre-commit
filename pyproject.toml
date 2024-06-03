@@ -1,0 +1,12 @@
+[project]
+name = "tach-pre-commit"
+version = "0.0.0"
+dependencies = [
+    "tach==0.5.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "packaging~=24.0",
+    "urllib3~=2.2"
+]
