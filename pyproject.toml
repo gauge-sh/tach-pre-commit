@@ -2,7 +2,7 @@
 name = "tach-pre-commit"
 version = "0.0.0"
 dependencies = [
-    "tach==0.5.4",
+    "tach==0.6.0",
 ]
 
 [project.optional-dependencies]
