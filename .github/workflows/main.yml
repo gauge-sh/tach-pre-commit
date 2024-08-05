@@ -6,6 +6,9 @@ on:
   repository_dispatch:
     types: [pypi_release]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: main

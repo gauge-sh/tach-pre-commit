@@ -15,5 +15,4 @@ To run `tach check` via pre-commit, add the following to your `.pre-commit-confi
   rev: v0.9.2
   hooks:
     - id: tach
-      # args: ["--root=backend_root"]
 ```
