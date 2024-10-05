@@ -12,7 +12,7 @@ To run `tach check` via pre-commit, add the following to your `.pre-commit-confi
 ```yaml
 - repo: https://github.com/gauge-sh/tach-pre-commit
   # Tach version.
-  rev: v0.12.0
+  rev: v0.13.0
   hooks:
     - id: tach
 ```
