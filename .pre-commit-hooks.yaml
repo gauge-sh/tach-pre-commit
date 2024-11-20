@@ -4,3 +4,9 @@
   entry: tach check
   language: python
   pass_filenames: false
+- id: tach-external
+  name: tach-external
+  description: Validate external package dependencies
+  entry: tach check-external
+  language: python
+  pass_filenames: false
