@@ -54,7 +54,7 @@ def process_version(version: Version) -> typing.Sequence[str]:
         return re.sub(r'"tach==.*"', f'"tach=={version}"', content)
 
     def replace_readme_md(content: str) -> str:
-        return re.sub(r"rev: v\d+\.\d+\.\d+", f"rev: v{version}", content)
+        return re.sub(r"rev: v\d+\.\d+(?:\.|[a-z]+)\d+", f"rev: v{version}", content)
 
     paths = {
         "pyproject.toml": replace_pyproject_toml,
