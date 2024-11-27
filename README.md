@@ -12,7 +12,7 @@ To run [`tach check`](https://docs.gauge.sh/usage/commands#tach-check) and [`tac
 ```yaml
 - repo: https://github.com/gauge-sh/tach-pre-commit
   # Tach version.
-  rev: v0.15.4
+  rev: v0.15.5
   hooks:
     - id: tach
     - id: tach-external
